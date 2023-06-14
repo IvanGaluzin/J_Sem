@@ -1,5 +1,6 @@
-public class Main2 {
-
+public class T_4 {
+//     Дан массив двоичных чисел, например [1,1,0,1,1,1],
+// вывести максимальное количество подряд идущих 1.
     public static void main(String[] args) {
         int[] array = { 1, 1, 0, 1, 1, 1 };
         int count = 0;
@@ -18,6 +19,7 @@ public class Main2 {
             count = current;
         }
         System.out.println(count);
-    
+
     }
 }
+
