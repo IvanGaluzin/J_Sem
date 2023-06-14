@@ -21,7 +21,7 @@ public class Task_4 {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.printf("Enter equition as (q + w = e): ");
+        System.out.printf("Введите уравнение (q + w = e): ");
         String equation = scn.nextLine();
         equation = equation.replace(" ", "");
         String[] numbersArray = equation.split("[+=]");
@@ -54,7 +54,7 @@ public class Task_4 {
                 }
             }
             if (!isSolution) {
-                System.out.println("Solution of equation is absent!!!");
+                System.out.println("Неправельное Уравнение!!!");
             }
         }
         scn.close();
