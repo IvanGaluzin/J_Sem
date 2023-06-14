@@ -37,7 +37,7 @@ public class Task_4 {
         }
 
         if (!isCorrectInput || numbersArray.length != 3) {
-            System.out.println("You enter wrong equation!!!");
+            System.out.println("Неверное уровнение!!!");
         } else {
             boolean isSolution = false;
             for (int x = 0; x < 10; x++) {
@@ -54,7 +54,7 @@ public class Task_4 {
                 }
             }
             if (!isSolution) {
-                System.out.println("Неправельное Уравнение!!!");
+                System.out.println("Решение уравнения отсутсвует!!!");
             }
         }
         scn.close();
